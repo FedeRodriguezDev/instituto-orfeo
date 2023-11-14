@@ -1,142 +1,140 @@
-/* Fuente Montserrat*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: auto;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap");
+html {
+  font-family: "Montserrat", sans-serif;
 }
 
-.ml-auto {
-    margin-left: auto;
+nav ul {
+  list-style: none;
+  list-style-type: none;
 }
-
-.carousel-inner {
-    max-height: 600px;
-}
-
-.icons {
-    background-color: #991F36;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-a {
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-}
-
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-}
-
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-}
-
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
+nav ul li a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #000;
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-}
-
-ul {
-    list-style-type: none;
-}
-
-.banner img {
-    max-width: 1440px;
-    max-height: 600px;
-}
-
-.footer {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-}
-
-.footer nav ul {
-    display: flex;
-    justify-content: center;
-    padding-left: 0px;
-    padding-top: 15px;
-}
-
-.footer nav li {
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.footer p {
-    color: white;
-    justify-content: center !important;
-    margin-left: auto;
-    margin-right: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 section {
-    margin-top: 35px;
-    padding-bottom: 35px;
+  margin-top: 35px;
+  padding-bottom: 35px;
 }
-
-.grey-section {
-    background-color: #e6e6e6;
+section h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
 }
-
-.brown-section {
-    background-color: #E5DDD4;
+section h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
 }
-
-.formulario {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-}
-
-input {
-    font-family: 'Montserrat', sans-serif;
-}
-
-textarea {
-    font-family: 'Montserrat', sans-serif;
-    resize: none;
-}
-
-.card {
-    margin: 0 20px;
-}
-
-.subtitle {
-    margin-bottom: 25px;
+section h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 iframe {
-    padding-left: 40px;
+  padding-left: 40px;
+}
+
+.footer {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+}
+.footer nav ul {
+  display: flex;
+  justify-content: center;
+  padding-left: 0px;
+  padding-top: 15px;
+}
+.footer nav ul li {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.footer p {
+  color: #fff;
+  justify-content: center !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  font-family: "Montserrat", sans-serif;
+}
+
+textarea {
+  font-family: "Montserrat", sans-serif;
+  resize: none;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.carousel-inner {
+  max-height: 600px;
+}
+
+.icons {
+  background-color: #991F36;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.card {
+  margin: 0 20px;
+}
+
+.subtitle {
+  margin-bottom: 25px;
+}
+
+.grey-section {
+  background-color: #e6e6e6;
+}
+
+.brown-section {
+  background-color: #E5DDD4;
+}
+
+.formulario {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.banner img {
+  max-width: 1440px;
+  max-height: 600px;
 }
 
 @media only screen and (max-width: 480px) {
-    iframe {
-        max-width: 320px;
-    }
+  iframe {
+    max-width: 320px;
+  }
 }
-
 @media only screen and (min-width: 481px) and (max-width: 640px) {
-    iframe {
-        max-width: 400px;
-    }
+  iframe {
+    max-width: 400px;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1920px) {
+  iframe {
+    width: 600px;
+  }
 }
 
-@media only screen and (min-width: 641px) and (max-width: 1920px) {
-    iframe {
-        width: 600px;
-    }
-}
+/*# sourceMappingURL=style.css.map */

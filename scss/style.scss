@@ -1,0 +1,72 @@
+@import "./utilities/variables";
+@import "./base/tipografias";
+@import "./base/reset";
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.carousel-inner {
+    max-height: 600px;
+}
+
+.icons {
+    background-color: $color-principal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.card {
+    margin: 0 20px;
+}
+
+.subtitle {
+    margin-bottom: 25px;
+}
+
+.grey-section {
+    background-color: $background-color-one;
+}
+
+.brown-section {
+    background-color: $background-color-two;
+}
+
+.formulario {
+    font-family: 'Montserrat', sans-serif;
+    font-size: $font-medium;
+}
+
+
+.banner {
+    img {
+        max-width: 1440px;
+        max-height: 600px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    iframe {
+        max-width: 320px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 640px) {
+    iframe {
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1920px) {
+    iframe {
+        width: 600px;
+    }
+}
