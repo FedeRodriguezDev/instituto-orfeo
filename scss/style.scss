@@ -41,8 +41,16 @@
 }
 
 .formulario {
+    display: flex;
     font-family: 'Montserrat', sans-serif;
     font-size: $font-medium;
+    margin-left: auto;
+}
+
+.map {
+    display: flex;
+    margin-left: auto;
+    padding-bottom: 25px;
 }
 
 .link {
@@ -54,6 +62,43 @@
     img {
         max-width: 1440px;
         max-height: 600px;
+    }
+}
+
+.icon {
+    a:hover {
+        transform: scale(110%);
+    }
+}
+
+#formulario {
+    .form-control-xxl {
+        padding: 1rem 1rem;
+    }
+
+    .boton {
+        background-color: $color-principal;
+        border-color: $font-color-secondary;
+    }
+    .boton:hover {
+        color: $color-principal;
+        background-color: $font-color-secondary;
+        border-color: $color-principal;    
+    }
+}
+
+
+#footer {
+    nav {
+        ul {
+            li {
+                .icon {
+                    a:hover {
+                        transform: scale(110%);
+                    }
+                }
+            }
+        }
     }
 }
 

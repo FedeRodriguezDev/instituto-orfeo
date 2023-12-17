@@ -12,6 +12,10 @@ nav ul li a {
   text-decoration: none;
   color: #000;
 }
+nav ul li a:hover {
+  color: #fff !important;
+  background-color: #991F36;
+}
 
 p {
   font-family: "Montserrat", sans-serif;
@@ -42,6 +46,13 @@ section h3 {
 }
 section .card {
   margin-bottom: 45px;
+}
+section .card img:hover {
+  transform: scale(103%);
+}
+section form {
+  align-content: center;
+  padding-left: 40px;
 }
 
 iframe {
@@ -117,8 +128,16 @@ textarea {
 }
 
 .formulario {
+  display: flex;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
+  margin-left: auto;
+}
+
+.map {
+  display: flex;
+  margin-left: auto;
+  padding-bottom: 25px;
 }
 
 .link {
@@ -129,6 +148,27 @@ textarea {
 .banner img {
   max-width: 1440px;
   max-height: 600px;
+}
+
+.icon a:hover {
+  transform: scale(110%);
+}
+
+#formulario .form-control-xxl {
+  padding: 1rem 1rem;
+}
+#formulario .boton {
+  background-color: #991F36;
+  border-color: #fff;
+}
+#formulario .boton:hover {
+  color: #991F36;
+  background-color: #fff;
+  border-color: #991F36;
+}
+
+#footer nav ul li .icon a:hover {
+  transform: scale(110%);
 }
 
 @media only screen and (max-width: 480px) {
